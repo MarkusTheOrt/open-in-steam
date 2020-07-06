@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Open in Steam",
+    "version": "1.0.0",
+    "author": "Markus Ort",
+    "homepage_url": "https://github.com/markustheort/open-in-steam",
+    "description": "Adds Open in Steam context menu option",
+    "icons": {
+        "48": "icons/logo-48.png",
+        "96": "icons/logo-96.png"
+    },
+    "background": {
+		"scripts": ["bundle.js"]
+	},
+	"permissions": [
+		"contextMenus",
+		"tabs"
+	]
+}
